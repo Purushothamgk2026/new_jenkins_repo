@@ -2,11 +2,13 @@ pipeline{
      agent any
      environment{
           name = 'purusotham'
+          date = 'oct 21'
      }
     stages{
        stage('env variable'){
           steps{
            echo 'my name $(env.name)'
+           echo 'my name $(env.date)'
        }
     }
 }
