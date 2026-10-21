@@ -2,7 +2,7 @@ pipeline{
      agent any
      environment{
           name = 'purusotham'
-          date = 'oct 21'
+          date = 'oct 21 wed'
      }
     stages{
        stage('env variable'){
